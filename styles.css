@@ -65,7 +65,7 @@ button {
 .tagline-container {
   display: flex;
   justify-content: center;
-  gap: 215px;
+  gap: 32px;
 }
 
   .tagline {
