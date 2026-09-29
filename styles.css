@@ -61,11 +61,15 @@ button {
   border-radius: 10px;
 }
 
-.tagline {
-  width: 600px;
-}
+.tagline-container {
+  display: flex;
+ }
 
 .title{
   font-size: 32px;
   font-weight: bold;
+}
+
+.car {
+  width: 50px auto;
 }
