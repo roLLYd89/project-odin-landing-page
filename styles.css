@@ -19,11 +19,18 @@ body {
 
 a {
   text-decoration: none;
+  color:white; 
  }
 
 ul {
   list-style-type: none;
+  
 
+}
+
+.main {
+  background-color: #1F2937;
+  padding-bottom: 80px
 }
 
 .header{
@@ -80,3 +87,19 @@ button {
   width: auto;
   height: 300px;
 }
+
+.title {
+    font-size: 48px
+    font-color: white;
+  }
+
+  .heading {
+    font-size: 48px;
+    color: white;
+  }
+
+  .description {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+  }
