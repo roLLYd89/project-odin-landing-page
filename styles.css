@@ -184,3 +184,11 @@ ul {
     color: white;
     background-color: #3882F6;
   }
+
+  .footer-container {
+    text-align: center;
+  }
+
+  .footer {
+   background-color: #1F2937;
+  }
