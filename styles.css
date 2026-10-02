@@ -93,7 +93,7 @@ button {
     font-size: 48px;
     color: white;
   } .caption {
-    dsisplay: flex;
+    display: flex;
     justify-content: center;
   }
 
@@ -115,19 +115,18 @@ button {
 
   .logo-container {
     display: flex;
-    gap: 60px;
-    flex-wrap: wrap;
-    font-size: 18px;
-    margin-top: 60px;
-    width: 80%;
-    margin: 0 auto;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-  }
+    gap: 50px;
 
+    }
 
   .logo img{
     margin: 20px auto;
+    align-items: center;
+    flex-shrink: 1;
+    width: 200px;
   }
   .content-container {
     display: flex;
@@ -135,4 +134,12 @@ button {
     gap: 32px;
     align-items: center;
     margin-top: 40px;
+  }
+
+  .logo p {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
   }
