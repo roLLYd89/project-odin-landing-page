@@ -128,6 +128,7 @@ button {
     flex-shrink: 1;
     width: 200px;
   }
+
   .content-container {
     display: flex;
     justify-content: center;
@@ -143,3 +144,19 @@ button {
     font-weight: bold;
     padding: 0;
   }
+
+  .qoute-container {
+    background-color: #E5E7EB;
+    padding: 300px;
+    margin: 90px 0;
+  }
+
+  .qoute {
+    font-size: 36px;
+    font-style: italic;
+  }
+
+ .qoute .author {
+    display: flex;
+    justify-content: flex-end;
+ }
